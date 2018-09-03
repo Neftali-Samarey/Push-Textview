@@ -13,6 +13,8 @@
 		ED090337213B8BF40062A1DF /* PushTextview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED090335213B8BF40062A1DF /* PushTextview.xcdatamodeld */; };
 		ED090339213B8BF70062A1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED090338213B8BF70062A1DF /* Assets.xcassets */; };
 		ED09033C213B8BF70062A1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09033A213B8BF70062A1DF /* LaunchScreen.storyboard */; };
+		ED090344213B8EBE0062A1DF /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED090343213B8EBD0062A1DF /* UIColorExtensions.swift */; };
+		ED090346213B90240062A1DF /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED090345213B8F9F0062A1DF /* Nunito-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED090338213B8BF70062A1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED09033B213B8BF70062A1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED09033D213B8BF70062A1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED090343213B8EBD0062A1DF /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		ED090345213B8F9F0062A1DF /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				ED09032E213B8BF40062A1DF /* AppDelegate.swift */,
 				ED090330213B8BF40062A1DF /* ViewController.swift */,
+				ED090343213B8EBD0062A1DF /* UIColorExtensions.swift */,
 				ED090332213B8BF40062A1DF /* Main.storyboard */,
 				ED090338213B8BF70062A1DF /* Assets.xcassets */,
 				ED09033A213B8BF70062A1DF /* LaunchScreen.storyboard */,
+				ED090345213B8F9F0062A1DF /* Nunito-Regular.ttf */,
 				ED09033D213B8BF70062A1DF /* Info.plist */,
 				ED090335213B8BF40062A1DF /* PushTextview.xcdatamodeld */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED090346213B90240062A1DF /* Nunito-Regular.ttf in Resources */,
 				ED09033C213B8BF70062A1DF /* LaunchScreen.storyboard in Resources */,
 				ED090339213B8BF70062A1DF /* Assets.xcassets in Resources */,
 				ED090334213B8BF40062A1DF /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				ED090331213B8BF40062A1DF /* ViewController.swift in Sources */,
 				ED09032F213B8BF40062A1DF /* AppDelegate.swift in Sources */,
 				ED090337213B8BF40062A1DF /* PushTextview.xcdatamodeld in Sources */,
+				ED090344213B8EBE0062A1DF /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
